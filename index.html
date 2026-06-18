@@ -5,11 +5,14 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B3QCMH5D34"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    if (!window.origin.includes('localhost')) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
 
-    gtag('config', 'G-B3QCMH5D34');
+      gtag('config', 'G-B3QCMH5D34');
+    }
+
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,8 +24,8 @@
       font-family: Arial, 'Microsoft YaHei', 'Microsoft Sans Serif', 'Microsoft SanSerf', '微软雅黑' !important;
     }
   </style>
-  <script type="module" crossorigin src="/blive-sc-gen/assets/index-18d7349e.js"></script>
-  <link rel="stylesheet" href="/blive-sc-gen/assets/index-f6ac769e.css">
+  <script type="module" crossorigin src="/blive-sc-gen/assets/index-6e2c07e2.js"></script>
+  <link rel="stylesheet" href="/blive-sc-gen/assets/index-dab243fe.css">
 </head>
 
 <body>
